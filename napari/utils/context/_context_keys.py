@@ -18,7 +18,7 @@ from typing import (
     overload,
 )
 
-from typing_extensions import Literal
+from typing import Literal
 
 from ..translations import trans
 from ._expressions import Name

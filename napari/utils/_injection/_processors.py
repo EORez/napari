@@ -15,7 +15,8 @@ from typing import (
     get_origin,
 )
 
-from typing_extensions import get_args, get_type_hints
+from typing_extensions import get_args
+from typing import get_type_hints
 
 from ... import layers, types, viewer
 from ...layers._source import layer_source

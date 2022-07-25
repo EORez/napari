@@ -4,7 +4,7 @@ import sys
 from typing import Any, ChainMap, Dict, MutableMapping, Optional
 from weakref import finalize
 
-from typing_extensions import Final
+from typing import Final
 
 from ..events.event import Event, EventEmitter
 from ..translations import trans

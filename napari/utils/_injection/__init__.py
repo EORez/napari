@@ -2,7 +2,7 @@ from functools import wraps
 from inspect import isgeneratorfunction, signature
 from typing import Any, Callable, Dict, Optional, TypeVar
 
-from typing_extensions import get_type_hints
+from typing import get_type_hints
 
 from ... import components, layers, viewer
 from ._processors import get_processor, set_processors
